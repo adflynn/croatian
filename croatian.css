@@ -1,0 +1,75 @@
+.resource {
+    border: solid darkgray 2px;
+    border-radius: 10px;
+    height: 720px;
+}
+
+.row2 {
+    height: 550px;
+}
+
+.row4 {
+    height: 690px;
+}
+
+.row3 {
+    height: 350px;
+}
+
+.resource:hover {
+    background-color: lightgray ;
+
+}
+
+.clickable {
+    color: #000000 !important;
+    padding: 5px;
+}
+
+.clickable:hover, a:visited {
+    text-decoration: none !important;
+}
+
+.category {
+    font-size: 2em;
+}
+
+.title {
+    font-size: 1.5em;
+}
+
+.icons {
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.glyphicon {
+    padding: 5px;
+}
+
+h4, h1, h2 {
+    text-align: center;
+}
+
+.image, .video{
+    display: flex;
+    justify-content: center;
+}
+
+.video img {
+    height: 150px;
+    max-width: 200px;
+}
+
+.image img {
+    height: 40px;
+}
+
+.enabled {
+    color: green;
+}
+
+.disabled {
+    color: grey;
+}
