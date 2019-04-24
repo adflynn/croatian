@@ -1,24 +1,33 @@
+body {
+    background-image: url("./resources/grb.png");
+    font-family: "Marker Felt" !important;
+}
+
 .resource {
-    border: solid darkgray 2px;
-    border-radius: 10px;
-    height: 720px;
+    height: 600px;
+    background-color: white;
+    margin: 25px;
+    font-family: Helvetica;
+}
+
+.baby-resource {
+    background-color: white;
+    font-family: Helvetica;
+    margin: 30px;
+}
+
+.page-header {
+    margin: 0 !important;
+    background-color: white;
+    padding: 9px !important;
 }
 
 .row2 {
-    height: 550px;
+    height: 460px;
 }
 
-.row4 {
-    height: 690px;
-}
-
-.row3 {
-    height: 350px;
-}
-
-.resource:hover {
-    background-color: lightgray ;
-
+.resource:hover, .baby-resource:hover {
+    background-color: #fa7c7f;
 }
 
 .clickable {
@@ -26,7 +35,12 @@
     padding: 5px;
 }
 
-.clickable:hover, a:visited {
+.clickable:hover {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.clickable:hover a:visited {
     text-decoration: none !important;
 }
 
@@ -36,6 +50,12 @@
 
 .title {
     font-size: 1.5em;
+}
+
+.ratings {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
 
 .icons {
@@ -52,18 +72,18 @@ h4, h1, h2 {
     text-align: center;
 }
 
-.image, .video{
-    display: flex;
-    justify-content: center;
-}
-
-.video img {
-    height: 150px;
-    max-width: 200px;
+h5 {
+    margin-top: 5px !important;
+    font-weight: 900 !important;
 }
 
 .image img {
     height: 40px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
 }
 
 .enabled {
