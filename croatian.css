@@ -4,30 +4,32 @@ body {
 }
 
 .resource {
-    height: 600px;
+    /* height: 43vw; */
     background-color: white;
+    border-radius: 5px;
     margin: 25px;
     font-family: Helvetica;
+    height: fit-content;
+}
+
+.row {
+    margin: 0 !important;
 }
 
 .baby-resource {
     background-color: white;
+    border-radius: 5px;
+
     font-family: Helvetica;
     margin: 30px;
+    /* height: 35vw; */
+    height: fit-content;
 }
 
 .page-header {
     margin: 0 !important;
     background-color: white;
     padding: 9px !important;
-}
-
-.row2 {
-    height: 460px;
-}
-
-.resource:hover, .baby-resource:hover {
-    background-color: #fa7c7f;
 }
 
 .clickable {
@@ -37,7 +39,6 @@ body {
 
 .clickable:hover {
     text-decoration: none !important;
-    color: white !important;
 }
 
 .clickable:hover a:visited {
