@@ -101,7 +101,7 @@
       <replace>glyphicon-education</replace>
       <replace>col-md-5 col-md-offset-1</replace>
       <replace>col-md-offset-.5</replace>
-      <replace>baby-resource</replace>
+      <replace>resource</replace>
       <replace>col-md-3</replace>
     </replaceStrings>
   </component>
