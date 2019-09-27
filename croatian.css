@@ -4,6 +4,11 @@ body {
     font-size: 2em !important;
 }
 
+.row {
+    margin-left: 1vh !important;
+    margin-right: 1vh !important;
+}
+
 .resource {
     background-color: white;
     border-radius: 5px;
@@ -135,12 +140,23 @@ body {
     display: flex;
 }
 
+.media-info {
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    width: 90%;
+    margin-top: 10vh;
+    padding: 5vh;
+}
+
 .page-info {
     width: 65%;
     padding-right: 5vh;
     text-align: center;
     align-items: center;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .footer {
