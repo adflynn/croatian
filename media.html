@@ -9,17 +9,16 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
         integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-    <script>
-        function toggleNav() {
-            var x = document.getElementById("navbar1");
-            console.log('togglin');
-            if (x.style.display === "none") {
-                x.style.display = "block";
-            } else {
-                x.style.display = "none";
+        <script>
+            function toggleNav() {
+                var x = document.getElementById("navbar1");
+                if (x.style.display != "block") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none";
+                }
             }
-        }
-    </script>
+        </script>
 </head>
 
 <body>
@@ -125,6 +124,22 @@
                 <div class="description">
                     A nicely compiled sampling of classic and new Croatian music. While the language used is not always
                     'standard' or reflective of conversational Croatian, it is an easy way to pick up new words.
+                </div>
+            </div>
+        </div>
+
+        <div class="resource row">
+            <div class="resource-header">
+                <div class="image"><img src="./resources/lektire.png"></div>
+                <div class="basic-info">
+                    <h3 class="resource-name">
+                        <a class="clickable"
+                            href="http://lektire.skole.hr/naslovna/pristup-sadrzaju"
+                            target="_blank">Lektire</a>
+                    </h3>
+                </div>
+                <div class="description">
+                    A collection of books in Croatian, separated by grade level and available for free to read. A great way to see progress in your reading comprehension level.
                 </div>
             </div>
         </div>

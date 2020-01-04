@@ -26,8 +26,7 @@
     <script>
         function toggleNav() {
             var x = document.getElementById("navbar1");
-            console.log('togglin');
-            if (x.style.display === "none") {
+            if (x.style.display != "block") {
                 x.style.display = "block";
             } else {
                 x.style.display = "none";
@@ -329,7 +328,7 @@
                     </div>
                 </div>
                 <div class="description">
-                    A set of lessons available at beginner, intermediate, or advanced levels or specifically
+                    A set of lessons available at beginner, intermediate, or "advanced" levels or specifically
                     tailored to students or the workplace. Each collection of lessons has about 3-8 sections. The
                     sections are quite long and include quizzes, writing exercises (sometimes), dialogues, and grammar
                     lessons. The site also includes cultural lessons about Croatia
@@ -357,6 +356,7 @@
                         <li>Progress is saved so user can leave off and come back, but quizzes are very long</li>
                         <li>Not much listening - in questions pronunciation is up to user</li>
                         <li>No easy way to go back to review questions/parts of lessons</li>
+                        <li>Although called "Advanced", the course ends at closer to an entry level intermediate level</li>
                     </ul>
                 </div>
             </div>
@@ -379,7 +379,7 @@
                     </a>
                     <div class="icons">
                         <i class="glyphicon glyphicon-book enabled" title="includes text"></i>
-                        <i class="glyphicon glyphicon-headphones disabled" title="does not include audio"></i>
+                        <i class="glyphicon glyphicon-headphones enabled" title="includes audio"></i>
                         <i class="glyphicon glyphicon-list-alt disabled"
                             title="does not include written exercises/quizzes"></i>
                         <i class="glyphicon glyphicon-education disabled"
@@ -390,7 +390,7 @@
                     A very comprehensive set of 100 lessons that covers all introductory aspects of Croatian
                     grammar. Later lessons go deep into quirks, dialects, and expressions in the Croatian language.
                     Cultural
-                    lessons are included in some units. Everything on the site can be downloaded as a PDF.
+                    lessons are included in some units. Most information on the site can be downloaded as a PDF.
                 </div>
             </div>
             <div class="info">
@@ -409,7 +409,7 @@
                 <div class="cons">
                     <div class="procon">Cons</div>
                     <ul>
-                        <li>No audio, however pronunciation (including stressed syllables) is included in text</li>
+                        <li>Audio not available on all lessons, however pronunciation (including stressed syllables) is included in text</li>
                         <li>Not a structured lesson plan</li>
                     </ul>
                 </div>
