@@ -1,6 +1,6 @@
 body {
     background-image: url("./resources/grb.png");
-    font-family: "Marker Felt" !important;
+    font-family: Helvetica, Arial !important;
     font-size: 2em !important;
 }
 
@@ -31,19 +31,14 @@ body {
     margin-right: 1vh !important;
 }
 
-.navbar-nav>li>.active {
-    color: #eca49e !important;
-}
-
-.navbar-nav>li>a:hover {
-    color: #eca49e !important;
+.navbar-nav>li>.active, .navbar-nav>li>a:hover, .clickable, .footer>a {
+    color: #d44339 !important;
 }
 
 .resource {
     background-color: white;
     border-radius: 5px;
     margin: 25px;
-    font-family: Helvetica;
     height: fit-content;
     padding: 20px;
 }
@@ -80,10 +75,6 @@ body {
 
 .feature {
     font-size: .8em;
-}
-
-.clickable {
-    color: #eca49e !important;
 }
 
 .clickable:hover {
@@ -180,6 +171,7 @@ body {
     width: 90%;
     margin-top: 10vh;
     padding: 5vh;
+    border-radius: 5px;
 }
 
 .page-info {
@@ -206,8 +198,4 @@ body {
     position: fixed;
     left: 0;
     bottom: 0;
-}
-
-.footer>a {
-    color: #eca49e;
 }
