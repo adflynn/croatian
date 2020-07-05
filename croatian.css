@@ -24,6 +24,9 @@ body {
     .info {
         padding: 0 !important;
     }
+    .feature {
+        font-size: 2vh;
+    }
 }
 
 .row {
@@ -31,7 +34,10 @@ body {
     margin-right: 1vh !important;
 }
 
-.navbar-nav>li>.active, .navbar-nav>li>a:hover, .clickable, .footer>a {
+.navbar-nav>li>.active,
+.navbar-nav>li>a:hover,
+.clickable,
+.footer>a {
     color: #d44339 !important;
 }
 
@@ -45,10 +51,6 @@ body {
 
 .container {
     margin-bottom: 6vh;
-}
-
-.heading {
-    display: flex;
 }
 
 .navbar {
@@ -65,16 +67,20 @@ body {
 }
 
 .features {
+    margin-top: 1vh;
     border: solid 1px;
     border-radius: 5px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    width: 30%;
+    flex-wrap: wrap;
+    text-align: center;
+    width: fit-content;
+    padding: .5vh;
 }
 
 .feature {
-    font-size: .8em;
+    font-size: 1.7rem;
+    padding: .5vh;
 }
 
 .clickable:hover {
@@ -104,6 +110,7 @@ body {
 .procon {
     text-align: center;
     font-weight: bold;
+    padding-top: 1rem;
 }
 
 .image {
@@ -148,45 +155,25 @@ body {
 
 .info {
     display: flex;
-    padding: 20px;
-}
-
-.pros,
-.cons {
-    width: 50%;
+    flex-direction: column;
 }
 
 .main {
     background-color: white;
-    width: 90%;
+    flex-direction: column;
     margin-top: 10vh;
     padding: 5vh;
     display: flex;
-}
-
-.media-info {
-    text-align: center;
-    align-items: center;
-    background-color: white;
-    width: 90%;
-    margin-top: 10vh;
-    padding: 5vh;
     border-radius: 5px;
+    align-items: center;
 }
 
 .page-info {
-    width: 65%;
-    padding-right: 5vh;
     text-align: center;
-    align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-.multiples {
-    display: flex;
-    flex-direction: row;
+    width: 100%;
 }
 
 .footer {
